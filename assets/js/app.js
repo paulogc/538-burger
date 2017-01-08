@@ -80,12 +80,12 @@ $(document).ready(function() {
 });
 
 function initMap() {
-  var monitora = new google.maps.LatLng(-22.009096, -47.90168);
+  var buguer = new google.maps.LatLng(-23.5409636,-46.6821588);
   var map = new google.maps.Map(document.getElementById('map'), {
     zoom: 18,
-    center: monitora,
+    center: buguer,
     scrollwheel: false,
-    draggable: false,
+    draggable: true,
     disableDefaultUI: true,
     disableDoubleClickZoom: false,
     mapTypeId: google.maps.MapTypeId.ROADMAP,
@@ -110,13 +110,13 @@ function initMap() {
     }]
   });
   var marker = new google.maps.Marker({
-    position: monitora,
+    position: buguer,
     map: map
   });
 
   // center on resize
   google.maps.event.addDomListener(window, 'resize', function() {
-    map.setCenter(monitora);
+    map.setCenter(buguer);
     map.panBy(0, 0);
   });
 }

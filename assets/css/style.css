@@ -26,6 +26,10 @@ hr {
   padding: 5px;
 }
 
+.monsum-navbar-brand  img{
+  width: 66px;
+}
+
 .monsum-navbar .monsum-navbar-nav > li > a {
   color: white;
   font-weight: bold;
@@ -80,18 +84,18 @@ hr {
 }
 
 /* <section>s utils */
-.section-white {
-  color: #414141;
-  background-image: url('../images/monitora-wallpaper.png');
+.section-red {
+  color: #F0C30F;
+  background-color: #D01F25;
 }
 
 .section-white hr {
   border-color: #414141;
 }
 
-.section-blue {
-  color: white;
-  background-color: #043d5f;
+.section-yellow {
+  color: #D01F25;
+  background-color: #F0C30F;
 }
 
 .section-blue hr {
@@ -115,7 +119,6 @@ hr {
 .header-container {
   display: flex;
   justify-content: center;
-  background-color: #DB2126;
 }
 
 .header-container img {
@@ -337,14 +340,25 @@ input.form-input:required {
 }
 
 .footer-container
-.footer-rocket {
+.footer-icon {
   display: flex;
 }
 
 .footer-container
+.footer-icon img {
+  width: 66px;
+}
+
+.footer-container
 .footer-top {
+  padding-top: 10px;
   display: flex;
+  align-items: center;
   justify-content: space-between;
+}
+
+.footer-top-hr {
+  margin-top: 0;
 }
 
 .footer-container
@@ -432,7 +446,7 @@ input.form-input:required {
     text-align: center;
   }
 
-  .footer-rocket {
+  .footer-icon {
     align-self: center;
   }
 
