@@ -1,0 +1,461 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+/* Global */
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+hr {
+  border-width: 1px;
+  border-style: solid;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.small {
+  font-size: 85%;
+}
+
+.monsum-navbar {
+  background-color: #F0C30F;
+}
+
+.monsum-navbar-brand {
+  padding: 5px;
+}
+
+.monsum-navbar .monsum-navbar-nav > li > a {
+  color: white;
+  font-weight: bold;
+}
+
+.monsum-navbar .monsum-navbar-nav > li > a:hover {
+  color: #D01F25;
+}
+
+.monsum-navbar .monsum-navbar-nav > li > a:focus {
+  color: white;
+}
+
+.monsum-navbar .monsum-navbar-nav > li.active > a,
+.monsum-navbar .monsum-navbar-nav > li.active > a:hover,
+.monsum-navbar .monsum-navbar-nav > li.active > a:focus {
+  color: white;
+  background-color: #D01F25;
+}
+
+.monsum-blue {
+  color: #F0C30F;
+}
+
+.monsum-gray {
+  color: #808080;
+}
+
+.monsum-orange {
+  color: #D01F25;
+}
+
+.monsum-navbar
+.navbar-toggle {
+  border-color: white;
+}
+
+.monsum-navbar .navbar-toggle:hover,
+.monsum-navbar .navbar-toggle:focus {
+  background-color: #D01F25;
+}
+
+.monsum-navbar
+.navbar-toggle
+.icon-bar {
+  background-color: white;
+}
+
+.required-label {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+/* <section>s utils */
+.section-white {
+  color: #414141;
+  background-image: url('../images/monitora-wallpaper.png');
+}
+
+.section-white hr {
+  border-color: #414141;
+}
+
+.section-blue {
+  color: white;
+  background-color: #043d5f;
+}
+
+.section-blue hr {
+  border-color: #fff;
+}
+
+.section-header {
+  margin-bottom: 80px;
+}
+
+.section-white,
+.section-blue {
+  padding: 40px 0;
+}
+
+/* Header */
+#header {
+  margin-top: 50px;
+}
+
+.header-container {
+  display: flex;
+  justify-content: center;
+  background-color: #DB2126;
+}
+
+.header-container img {
+  width: 500px;
+}
+
+/* countdown */
+#countdown {
+  text-align: center;
+}
+
+.countdown-timer {
+  display: flex;
+  justify-content: space-around;
+}
+
+.countdown-timer .timer-unit,
+.countdown-timer .timer-separator {
+  font-size: 78px;
+}
+
+.countdown-timer .timer-unit-name {
+  font-size: 20px;
+}
+
+.btn-registration {
+  border-radius: 1px;
+  background-color: #FE6425;
+  border: none;
+  color: white;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 180px;
+  margin: 0 auto;
+}
+
+.btn-registration:hover, .btn-registration:visited {
+  background-color: #e0571f !important;
+  color: white !important;
+}
+
+.btn-registration:focus, .btn-registration:active {
+  background-color: #ba4110 !important;
+  color: white !important;
+}
+
+/* ressed, visited */
+
+/* Intro */
+.intro-page {
+  text-align: center;
+}
+
+.intro-page
+.intro-text {
+  margin-bottom: 40px;
+}
+
+.intro-page hr {
+  margin-bottom: 40px;
+}
+
+.intro-page
+.intro-icons img {
+  width: 80px;
+}
+
+.intro-page
+.intro-ws {
+  color: #f25c21;
+  font-weight: bold;
+}
+
+/* What it is */
+.whatitis {
+  text-align: center;
+}
+
+.whatitis .whatitis-row {
+  margin-bottom: 60px;
+}
+
+.whatitis img {
+  width: 100px;
+  margin-bottom: 15px;
+}
+
+.whatitis .whatitis-icon-text {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.whatitis svg {
+  width: 100px;
+  margin-bottom: 15px;
+}
+
+.whatitis-item-icon {
+  fill: #FFF;
+}
+
+.whatitis-hr {
+  margin-bottom: 60px;
+}
+
+
+/* Awards */
+#awards {
+  text-align: center;
+}
+
+.award-item {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+  padding-bottom: 16px;
+  width: 100%;
+}
+
+.award-description {
+  width: 100%;
+}
+
+#awards .sign-icon {
+ width: 150px;
+ margin-bottom: 10px;
+}
+
+#awards .plus-icon {
+ width: 80px;
+ height: 80px;
+}
+
+.award-item-icon {
+  fill: #414141;
+}
+
+/* Workshop */
+.workshop-container {
+  text-align: center;
+}
+
+.workshop-items-container .small {
+  text-align: justify;
+}
+
+.workshop-item
+.item-title {
+  margin-bottom: 20px;
+}
+
+.workshop-item
+.item-img {
+  margin-bottom: 20px;
+}
+
+.workshop-item
+.item-subtitle {
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+.workshop-item
+.item-img {
+  width: 150px;
+  height: 150px;
+}
+
+.workshop-item hr {
+  width: 100%;
+}
+
+/* Form */
+input.form-input { 
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  color: #414141;
+  border: 1px solid #d3d3d3;
+  border-radius: 3px;
+  padding: 16px 20px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+input.form-input:required {
+  border-right: 5px solid #f25c21;
+}
+
+#form .form-buttton {
+  width: 100%;
+  height: 100%;
+  max-width: none;
+  display: inline-block;
+}
+
+.submit-box > div {
+  height: 78px;
+  line-height: 78px;
+  vertical-align: middle;
+}
+
+/* Map */
+#map {
+  height: 400px;
+  width: 100%;
+}
+
+/* Footer */
+.footer-container {
+  margin: auto;
+}
+
+.footer-container h4 {
+  padding-left: 10px;
+}
+
+.footer-container
+.footer-rocket {
+  display: flex;
+}
+
+.footer-container
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-container
+.monitora-logo img {
+  width: 150px;
+  height: 36px;
+}
+
+.footer-container
+.footer-bottom {
+  text-align: center;
+}
+
+/* Media Query */
+@media (max-width: 767px) {
+  .header-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 40px;
+    text-align: center;
+  }
+
+  .header-container > div {
+    flex-basis: unset;
+  }
+
+  .header-right-box {
+    margin-top: 20px;
+  }
+
+  .header-title {
+    font-size: 38px;
+  }
+
+  .header-subtitle {
+    font-size: 20px;
+  }
+
+  .whatitis .whatitis-row {
+    margin-bottom: 20px;
+  }
+
+  .whatitis img {
+    width: 20px;
+  }
+
+  .whatitis-item h4 {
+    font-size: 12px;
+  }
+
+  .whatitis svg {
+    width: 20px;
+    height: inherit;
+  }
+
+  .whatitis-hr {
+    margin-top: 60px;
+  }
+
+  .whatitis .whatitis-icon-text {
+    font-size: 12px;
+  }
+
+  #awards .sign-icon {
+   width: 75px;
+  }
+
+  #awards .plus-icon {
+   width: 40px;
+   height: 40px;
+  }
+
+  .countdown-timer .timer-unit,
+  .countdown-timer .timer-separator {
+    font-size: 10vw;
+  }
+
+  .countdown-timer .timer-unit-name {
+    font-size: 4vw;
+  }
+
+  .footer-top {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .footer-rocket {
+    align-self: center;
+  }
+
+  .g-recaptcha > div {
+    margin: auto;
+  }
+
+  #form .form-buttton {
+    margin-top: 20px; 
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+}
+
+@media (min-width: 1200px) {
+  .header-title {
+    font-size: 58px;
+  }
+  .header-subtitle {
+    font-size: 26px;
+  }
+}
