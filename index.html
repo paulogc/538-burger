@@ -18,6 +18,7 @@
 
     <!-- Custom -->
     <link rel="stylesheet" href="assets/css/style.css">
+    <!--<link rel="stylesheet" href="assets/css/carousel.css" >-->
 
     <meta property="og:url" content="http://538burger.com.br">
     <meta property="og:title" content="538 Burguer">
@@ -27,7 +28,6 @@
     <meta property="og:image:height" content="200">
   </head>
   <body>
-    <!-- by rener -->
     <nav class="navbar navbar-default navbar-fixed-top navbar-static-top monsum-navbar">
       <div class="container-fluid">
         <div class="navbar-header">
@@ -47,7 +47,6 @@
             <li><a href="#538burger">538 Burger</a></li>
             <li><a href="#menu">Opções</a></li>
             <li><a href="#map">Localização</a></li>
-            <li><a href="#contact">Contato</a></li>
           </ul>
         </div>
       </div>
@@ -61,72 +60,76 @@
         </div>
       </div>
     </header>
-    <!-- by guedes -->
     <section id="538burger" class="section-yellow">
       <div class="intro-page container">
-        <div class="section-header">
-          <h1 class="section-title">1º Monitora Summer</h1>
-          <h4 class="section-subtitle">workshops, mentoria e muita criação</h4>
-        </div>
-        <div class="intro-text">
-          <h4>
-            O Monitora Summer traz pela primeira vez um evento inovador
-            que reunirá estudantes e profissíonais durante 10 dias, 
-            promovendo o desenvolvimento de idéias através de workshops práticos, 
-            mentoria profissional, networking e muita criação.
-          </h4>
-        </div>
-        <hr class="intro-hr">
-        <div class="intro-icons row">
-          <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
-            <img alt="location" src="assets/images/icons/location-pointer.svg"></img>
-            <div>
-              <h3 class="intro-ws">WHERE?</h3>
-              <h4>Monitora <br>São Carlos/SP</h4>
+        <!-- Carousel
+        ================================================== -->
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+            <li data-target="#myCarousel" data-slide-to="3"></li>
+          </ol>
+          <div class="carousel-inner" role="listbox">
+            <div class="item active">
+              <img class="first-slide" src="assets/images/slyde-1.jpg" alt="First slide">
+              <div class="container">
+                <div class="carousel-caption">
+                  <h1>O Melhor de Perdizes</h1>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <img class="second-slide" src="assets/images/slyde-2.jpg" alt="Second slide">
+              <div class="container">
+                <div class="carousel-caption">
+                  <h1>Burgers Artesanais</h1>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <img class="third-slide" src="assets/images/slyde-5.jpg" alt="Third slide">
+              <div class="container">
+                <div class="carousel-caption">
+                  <h1>Opções Vegetarianas</h1>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <img class="third-slide" src="assets/images/slyde-7.jpg" alt="Third slide">
+              <div class="container">
+                <div class="carousel-caption">
+                  <h1>Os Melhores Ingredientes</h1>
+                </div>
+              </div>
             </div>
           </div>
-          <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
-            <img alt="dates" src="assets/images/icons/dates.svg"></img>
-            <div>
-              <h3 class="intro-ws">WHEN?</h3>
-              <h4>16-27 de <br>janeiro</h4>
-            </div>
-          </div>
-          <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
-            <img alt="computer" src="assets/images/icons/computer.svg"></img>
-            <div>
-              <h3 class="intro-ws">WHAT?</h3>
-              <h4>Workshops + <br>Desenvolvimento</h4>
-            </div>
-          </div>
-          <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
-            <img alt="question" src="assets/images/icons/question.svg"></img>
-            <div>
-              <h3 class="intro-ws">WHY?</h3>
-              <h4>Captação de<br>talentos</h4>
-            </div>
-          </div>
-        </div>
+          <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div><!-- /.carousel -->
       </div>
     </section>
-    <!-- by adiney -->
     <section id="menu" class="section-red">
       <div class="workshop-container container">
         <div class="section-header">
-          <h1 class="section-title">Workshops + Tutoria</h1>
-          <h4 class="section-subtitle">cursos práticos de como colocar sua idéia para rodar</h4>
+          <h1 class="section-title">Nossas Opções</h1>
+          <h4 class="section-subtitle">Todos os burgers tem a opção vegetariana</h4>
         </div>
         <div class="row workshop-items-container">
           <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 workshop-item">
             <h1 class="item-title">
-              WEB
+              Pesto
             </h1>
-            <img alt="circle" class="item-img img-circle" src="assets/images/vinicius-lemes.jpg" />
-            <h3 class="item-subtitle monsum-orange">
-              VINÍCIUS LEMES
+            <img alt="circle" class="item-img img-circle" src="assets/images/menu-1.jpg" />
             </h3>
-            <hr />
-            <p>Front End Developer</p>
             <div class="small">
               <ul>
                 <li>JavaScript</li>
@@ -139,14 +142,10 @@
           </div>
           <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 workshop-item">
             <h1 class="item-title">
-              ANDROID
+              Cheddar
             </h1>
-            <img alt="circle" class="item-img img-circle" src="assets/images/adenilson-noronha.jpeg" />
-            <h3 class="item-subtitle monsum-orange">
-              ADENILSON NORONHA
+            <img alt="circle" class="item-img img-circle" src="assets/images/menu-2.jpg" />
             </h3>
-            <hr />
-            <p>Android Developer</p>
             <div class="small">
               <ul>
                 <li>Android</li>
@@ -159,14 +158,58 @@
           </div>
           <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 workshop-item">
             <h1 class="item-title">
-              BUSINESS
+              Bacon
             </h1>
-            <img alt="circle" class="item-img img-circle" src="assets/images/rafael-meireles.jpg" />
-            <h3 class="item-subtitle monsum-orange">
-              RAFAEL MEIRELES
+            <img alt="circle" class="item-img img-circle" src="assets/images/menu-3.jpg" />
+            <div class="small">
+              <ul>
+                <li>Startups</li>
+                <li>Empreendedorismo</li>
+                <li>Business Strategy</li>
+                <li>Marketing</li>
+                <li>Team Leadership</li>
+              </ul>
+            </div class="small">
+          </div>
+        <div>
+        <div class="row workshop-items-container">
+          <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 workshop-item">
+            <h1 class="item-title">
+              Pesto
+            </h1>
+            <img alt="circle" class="item-img img-circle" src="assets/images/menu-4.jpg" />
             </h3>
-            <hr />
-            <p>Business Manager</p>
+            <div class="small">
+              <ul>
+                <li>JavaScript</li>
+                <li>React</li>
+                <li>Flux</li>
+                <li>Git</li>
+                <li>Web development</li>
+              </ul>
+            </div class="small">
+          </div>
+          <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 workshop-item">
+            <h1 class="item-title">
+              Cheddar
+            </h1>
+            <img alt="circle" class="item-img img-circle" src="assets/images/menu-5.jpg" />
+            </h3>
+            <div class="small">
+              <ul>
+                <li>Android</li>
+                <li>Java</li>
+                <li>Retrofit</li>
+                <li>MVP</li>
+                <li>Real-time permissions</li>
+              </ul>
+            </div class="small">
+          </div>
+          <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 workshop-item">
+            <h1 class="item-title">
+              Bacon
+            </h1>
+            <img alt="circle" class="item-img img-circle" src="assets/images/menu-6.jpg" />
             <div class="small">
               <ul>
                 <li>Startups</li>
@@ -180,9 +223,7 @@
         <div>
       </div>
     </section>
-    <!-- by vinicius -->
     <section id="map"></section>
-    <!-- by guedes -->
     <footer id="contact" class="section-yellow">
       <div class="footer-container container">
         <div class="footer-top">
@@ -220,5 +261,4 @@
     <!-- Google Maps -->
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyArOgktAjEBdBD_zvsvzgg8Hmc04IDluR4&sensor=false&callback=initMap"></script>
   </body>
-  <!-- made by VW Rangers, powered by chima -->
 </html>

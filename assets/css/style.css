@@ -103,7 +103,7 @@ hr {
 }
 
 .section-header {
-  margin-bottom: 80px;
+  margin-bottom: 10px;
 }
 
 .section-white,
@@ -169,95 +169,27 @@ hr {
 
 /* ressed, visited */
 
-/* Intro */
+/* Carrousel */
+.carousel {
+  height: 500px;
+  margin-bottom: 60px;
+}
+
+.carousel-caption h1 {
+  font-weight: bold;
+  color: #D01F25;
+}
+
+.carousel .item {
+  width: 1200px;
+  height: 500px;
+  background-color: #777;
+}
+
 .intro-page {
+  padding-top: 50px;
+  height: 600px;
   text-align: center;
-}
-
-.intro-page
-.intro-text {
-  margin-bottom: 40px;
-}
-
-.intro-page hr {
-  margin-bottom: 40px;
-}
-
-.intro-page
-.intro-icons img {
-  width: 80px;
-}
-
-.intro-page
-.intro-ws {
-  color: #f25c21;
-  font-weight: bold;
-}
-
-/* What it is */
-.whatitis {
-  text-align: center;
-}
-
-.whatitis .whatitis-row {
-  margin-bottom: 60px;
-}
-
-.whatitis img {
-  width: 100px;
-  margin-bottom: 15px;
-}
-
-.whatitis .whatitis-icon-text {
-  font-size: 20px;
-  font-weight: bold;
-}
-
-.whatitis svg {
-  width: 100px;
-  margin-bottom: 15px;
-}
-
-.whatitis-item-icon {
-  fill: #FFF;
-}
-
-.whatitis-hr {
-  margin-bottom: 60px;
-}
-
-
-/* Awards */
-#awards {
-  text-align: center;
-}
-
-.award-item {
-  display: flex;
-  flex-flow: column;
-  align-items: center;
-  justify-content: space-around;
-  text-align: center;
-  padding-bottom: 16px;
-  width: 100%;
-}
-
-.award-description {
-  width: 100%;
-}
-
-#awards .sign-icon {
- width: 150px;
- margin-bottom: 10px;
-}
-
-#awards .plus-icon {
- width: 80px;
- height: 80px;
-}
-
-.award-item-icon {
-  fill: #414141;
 }
 
 /* Workshop */
@@ -275,11 +207,6 @@ hr {
 }
 
 .workshop-item
-.item-img {
-  margin-bottom: 20px;
-}
-
-.workshop-item
 .item-subtitle {
   margin-bottom: 20px;
   font-weight: 700;
@@ -287,8 +214,8 @@ hr {
 
 .workshop-item
 .item-img {
-  width: 150px;
-  height: 150px;
+  width: 200px;
+  height: 200px;
 }
 
 .workshop-item hr {
