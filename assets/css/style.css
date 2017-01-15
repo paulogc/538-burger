@@ -125,50 +125,6 @@ hr {
   width: 500px;
 }
 
-/* countdown */
-#countdown {
-  text-align: center;
-}
-
-.countdown-timer {
-  display: flex;
-  justify-content: space-around;
-}
-
-.countdown-timer .timer-unit,
-.countdown-timer .timer-separator {
-  font-size: 78px;
-}
-
-.countdown-timer .timer-unit-name {
-  font-size: 20px;
-}
-
-.btn-registration {
-  border-radius: 1px;
-  background-color: #FE6425;
-  border: none;
-  color: white;
-  height: 50px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  max-width: 180px;
-  margin: 0 auto;
-}
-
-.btn-registration:hover, .btn-registration:visited {
-  background-color: #e0571f !important;
-  color: white !important;
-}
-
-.btn-registration:focus, .btn-registration:active {
-  background-color: #ba4110 !important;
-  color: white !important;
-}
-
-/* ressed, visited */
-
 /* Carrousel */
 .carousel {
   height: 500px;
@@ -222,35 +178,6 @@ hr {
   width: 100%;
 }
 
-/* Form */
-input.form-input { 
-  font-family: 'Open Sans', sans-serif;
-  font-size: 20px;
-  color: #414141;
-  border: 1px solid #d3d3d3;
-  border-radius: 3px;
-  padding: 16px 20px;
-  width: 100%;
-  margin-bottom: 20px;
-}
-
-input.form-input:required {
-  border-right: 5px solid #f25c21;
-}
-
-#form .form-buttton {
-  width: 100%;
-  height: 100%;
-  max-width: none;
-  display: inline-block;
-}
-
-.submit-box > div {
-  height: 78px;
-  line-height: 78px;
-  vertical-align: middle;
-}
-
 /* Map */
 #map {
   height: 400px;
@@ -300,6 +227,60 @@ input.form-input:required {
 }
 
 /* Media Query */
+@media (max-width: 415px) {
+  .carousel .item {
+    width: 300px;
+    height: 200px;
+  }
+
+  .carousel {
+    width: 300px;
+    height: 200px;
+  }
+
+  .carousel .item img {
+    height: 200px;
+  }
+
+  .carousel-caption h1 {
+    display: none
+  }
+
+  .intro-page {
+    padding-top: 25px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media (min-width: 414px) and (max-width: 425px) {
+  .carousel .item {
+    width: 390px;
+    height: 200px;
+  }
+
+  .carousel-caption h1 {
+    display: none
+  }
+
+  .carousel .item img {
+    height: 200px;
+  }
+
+  .carousel {
+    width: 390px;
+    height: 200px;
+  }
+
+  .intro-page {
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+    height: 250px;
+  }
+}
+
 @media (max-width: 767px) {
   .header-container {
     display: flex;
@@ -325,49 +306,6 @@ input.form-input:required {
     font-size: 20px;
   }
 
-  .whatitis .whatitis-row {
-    margin-bottom: 20px;
-  }
-
-  .whatitis img {
-    width: 20px;
-  }
-
-  .whatitis-item h4 {
-    font-size: 12px;
-  }
-
-  .whatitis svg {
-    width: 20px;
-    height: inherit;
-  }
-
-  .whatitis-hr {
-    margin-top: 60px;
-  }
-
-  .whatitis .whatitis-icon-text {
-    font-size: 12px;
-  }
-
-  #awards .sign-icon {
-   width: 75px;
-  }
-
-  #awards .plus-icon {
-   width: 40px;
-   height: 40px;
-  }
-
-  .countdown-timer .timer-unit,
-  .countdown-timer .timer-separator {
-    font-size: 10vw;
-  }
-
-  .countdown-timer .timer-unit-name {
-    font-size: 4vw;
-  }
-
   .footer-top {
     flex-direction: column;
     text-align: center;
@@ -375,14 +313,6 @@ input.form-input:required {
 
   .footer-icon {
     align-self: center;
-  }
-
-  .g-recaptcha > div {
-    margin: auto;
-  }
-
-  #form .form-buttton {
-    margin-top: 20px; 
   }
 }
 
@@ -393,10 +323,4 @@ input.form-input:required {
 }
 
 @media (min-width: 1200px) {
-  .header-title {
-    font-size: 58px;
-  }
-  .header-subtitle {
-    font-size: 26px;
-  }
 }
